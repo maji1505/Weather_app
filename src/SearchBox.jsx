@@ -2,7 +2,7 @@ import "./SearchBox.css"
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import { useState } from "react";
-import {url,key} from "../secret.js"
+import {url,key} from "./secret.js"
 export default function SearchBox({setInfo}){
     let [city,setCity]=useState("");
     let [error,setError]=useState(false);
