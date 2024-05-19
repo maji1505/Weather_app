@@ -1,0 +1,13 @@
+.InfoBox{
+    text-align: center;
+}
+.cardContainer{
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+p{
+   margin-bottom: 0; 
+   /* color: white; */
+}
