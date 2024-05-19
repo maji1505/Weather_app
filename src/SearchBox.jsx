@@ -2,13 +2,13 @@ import "./SearchBox.css"
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import { useState } from "react";
-import {url,key} from "./secret.js"
+
 export default function SearchBox({setInfo}){
     let [city,setCity]=useState("");
     let [error,setError]=useState(false);
 
-    const API_URL=url;
-    const API_KEY=key;
+    const API_URL="https://api.openweathermap.org/data/2.5/weather";
+    const API_KEY="848bc516ddcee79be3448b60ff4c6b58";
 
 let getWeatherInfo=async()=>{
     try{
